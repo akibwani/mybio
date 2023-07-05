@@ -1,0 +1,56 @@
+.top-container {
+    background-color: #e4f9f5;
+    position: relative;
+    padding-top: 100px;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    height: 250px;
+    width: 250px;
+    border-radius:39%;
+    
+}
+body {
+    color: #40514e;
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
+
+.top-cloud{
+    height: auto;
+    width: 300px;
+    border-radius: 70%; 
+}
+.position-relative{ 
+    background-color: #e4f9f5;
+    position: relative;
+}
+.container{
+    display: flex;
+}
+
+.card {
+    flex: 30%;
+    padding: 5px;
+    width: 100px;
+    background-color: aquamarine;
+  }
+  .ring{
+    background-color: aquamarine;
+  }
+  .pass{
+    display: flex;
+    justify-content: space-between;
+    border-spacing: 100px;
+    background-color: aquamarine;
+  }
+  .card-body{
+    background-color:#e4f9f5;
+    font-style: italic;
+    color: rgb(32, 50, 153);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+  }
